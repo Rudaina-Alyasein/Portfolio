@@ -1,0 +1,236 @@
+@media screen and (max-width:425px) {
+    .heroSection {
+        width: 100% !important;
+        z-index: -200 !important;
+    }
+
+    .navbar {
+        padding: 10px 0; /* تقليل padding ليكون مناسبًا للهواتف الصغيرة */
+    }
+
+    .navbar-brand img {
+        width: 100px; /* تقليص حجم الشعار ليكون مناسبًا */
+    }
+
+    .navbar-nav {
+        text-align: center; /* محاذاة الروابط إلى المنتصف */
+    }
+
+    .navbar-nav .nav-item {
+        padding: 10px 0; /* إضافة مسافة بين الروابط */
+    }
+
+    .navbar-toggler {
+        border-color: #fbc02d; /* تغيير لون زر التبديل */
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fbc02d; /* تغيير لون الأيقونة */
+    }
+
+    /* تغيير الألوان عند التمرير */
+    .navbar-nav .nav-link {
+        color: white !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #fbc02d !important;
+    }
+
+    
+
+    .heroSection img {
+        width: 50% !important;
+        display: none;
+        margin-bottom: 40px !important;
+    }
+
+    .content {
+        margin: auto !important;
+        
+    }
+
+    .content h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .content h2 {
+        font-size: 1.2rem !important;
+    }
+
+    .content p {
+        font-size: 0.76rem !important;
+    }
+
+    .content pre {
+        font-size: 0.9rem !important;
+        
+        padding: 0 !important;
+    }
+
+    .content a {
+        width: 50%;
+        margin: 5px 20px;
+        padding: 12px 20px;
+    }
+
+    .about-me-section {
+
+        width: 100%;
+        padding: 10px 0 !important;
+
+    }
+
+    .about-me-content {
+
+        margin-top: 50px;
+        width: 300px !important;
+        height: 400px !important;
+    }
+
+    
+
+    .about-me-content .about-quote {
+        font-size: .8rem !important;
+    }
+
+    .about-me-content p {
+        font-size: .7rem !important;
+    }
+
+    .about-me-content .social-links {
+        font-size: .5rem !important;
+    }
+.skills-section{
+    padding:0 !important;
+
+   
+}
+.skills-section h2{
+    margin-top: 10px !important;
+}
+.skills-content{
+    
+    margin-top: -23px  !important;
+    margin-bottom: 26px  !important;
+}
+.icon-skills{
+    flex-direction: row !important;
+}
+ .skills-columns {
+        
+        flex-direction: column;
+        gap:20px;
+    }
+
+.d-flex {
+        flex-direction: column;
+        
+    }
+.d-flex .contact-info{
+    padding-left: 20px;
+
+} 
+.d-flex .contact-info .form .d-flex .name input{
+    width:70% !important;
+}   
+  
+    
+    #training{
+        padding:  10px 0 !important;
+    }
+    
+   #services{
+    padding:  10px 0 !important;
+
+   }
+       
+
+        
+      
+        .carousel-control-prev, .carousel-control-next {
+            width: 30px; 
+        }
+        .carousel-control-prev {
+            left: 10px; 
+        }
+        .carousel-control-next {
+            right: 10px; 
+        }
+   
+    #portfolio .container {
+        overflow: hidden;
+    }.carousel-control-prev-icon, .carousel-control-next-icon {
+        background-color: rgba(0, 0, 0, 0.5); 
+        border-radius: 50%; 
+    } .carousel-item .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%; 
+    }
+    .carousel-inner {
+        margin: 0;
+        padding: 0;
+    }
+    .carousel-item .card {
+        margin-bottom: 20px; 
+    }
+    .contact-part {
+        flex-direction: column!important;
+        }
+        #portfolio .carousel-inner .col-12 {
+            flex: 0 0 100%;
+            max-width: 100%;
+          }
+          #portfolio .carousel-inner .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          #portfolio .card {
+            margin-bottom: 20px;
+          }
+          #contact-us .d-flex .contact-info {
+            flex-direction: column;
+            align-items: center;
+        }
+        #contact-us .d-flex .contact-icons{
+            flex-direction: row;
+        }
+
+        #contact-us .content,
+        #contact-us .form {
+            flex: 1;
+            width: 100%;
+        }
+
+      
+      
+
+        #contact-us  .contact-info .map {
+           
+            width: 80%;
+            margin-top: 20px;
+        }
+    #contact-us .form {
+        padding: 0 15px; /* إضافة padding للحاوية يمين ويسار */
+        box-sizing: border-box; /* لضمان أن الـ padding لا يؤثر على العرض الكلي */
+      }
+    
+      #contact-us .form input,
+      #contact-us .form textarea {
+        width: calc(100% - 30px); /* تقليل العرض ليتناسب مع الـ padding */
+        padding: 10px; /* إضافة مساحة داخلية للحقل */
+        margin: 10px auto; /* محاذاة الحقول في المنتصف */
+        box-sizing: border-box; /* لضمان أن الـ padding محسوب ضمن العرض */
+      }
+    
+      #contact-us button {
+        width: calc(100% - 30px); /* نفس منطق الحقول */
+        margin: 10px auto;
+      }
+}
+    
+    
+
+
+
